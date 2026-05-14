@@ -51,6 +51,30 @@ public static class SeedData
                     Genre = "Western",
                     Rating = "R",
                     Price = 3.99M
+                },
+                new Movie
+                {
+                    Title = "Spider-Man",
+                    ReleaseDate = DateTime.Parse("2026-7-31"),
+                    Genre = "Western",
+                    Rating = "R",
+                    Price = 4.99M
+                },
+                new Movie
+                {
+                    Title = "Avengers",
+                    ReleaseDate = DateTime.Parse("2026-12-18"),
+                    Genre = "Action",
+                    Rating = "R",
+                    Price = 4.99M
+                },
+                  new Movie
+                {
+                    Title = "The Karate Kid",
+                    ReleaseDate = DateTime.Parse("2010-6-11"),
+                    Genre = "Western",
+                    Rating = "R",
+                    Price = 7.99M
                 }
             );
             context.SaveChanges();
